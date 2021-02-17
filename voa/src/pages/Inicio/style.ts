@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { shade } from "polished";
 
 export const Container = styled.div`
     height: 100vh;
@@ -40,6 +41,7 @@ export const Content = styled.div`
             width: 100%;
             font-weight: 500;
             margin: 0 16px 16px 0;
+
         }
     }
 `;

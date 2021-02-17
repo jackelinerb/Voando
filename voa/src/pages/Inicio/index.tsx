@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Content } from "./style";
+import faceimg from "../../assets/icon_facebook.svg";
+import Googleimg from "../../assets/icon_google.svg";
+import Emailimg from "../../assets/icon_mail.svg";
 
 const Inicio: React.FC = () => {
     return (
@@ -8,9 +11,18 @@ const Inicio: React.FC = () => {
             <Content>
                 <form>
                     <h1>Economize em sua viagem</h1>
-                    <button> Facebook </button>
-                    <button> Google </button>
-                    <button> Email </button>
+                    <button>
+                        {" "}
+                        <img src={faceimg} alt="facebook" /> Facebook{" "}
+                    </button>
+                    <button>
+                        {" "}
+                        <img src={Googleimg} alt="google" /> Google{" "}
+                    </button>
+                    <button>
+                        {" "}
+                        <img src={Emailimg} alt="email" /> E-mail{" "}
+                    </button>
                     <a href="">Entrar sem e-mail</a>
                     <p>
                         Ao prossegui você aceita esses{" "}
