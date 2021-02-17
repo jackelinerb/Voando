@@ -41,7 +41,6 @@ export const Content = styled.div`
             width: 100%;
             font-weight: 500;
             margin: 0 16px 16px 0;
-
         }
     }
 `;
