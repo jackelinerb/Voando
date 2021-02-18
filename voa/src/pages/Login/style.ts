@@ -27,22 +27,21 @@ export const Content = styled.div`
             border: 2px solid #000000;
             padding: 16px;
             width: 100%;
-
-            & + input {
-                margin-top: 8px;
-            }
+            margin-top: 8px;
         }
         button {
-            background: #0066cc;
+            border-radius: 30px;
+            border: 1px solid #0066cc;
             color: #fff;
-            height: 56px;
-            border-radius: 10px;
-            border: 0;
-            padding: 0 16px;
+            background: #0066cc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 50px;
+            cursor: pointer;
             width: 100%;
             font-weight: 500;
-            margin: 0;
-            margin-top: 16px;
+            margin: 16px 0;
             transition: background-color 0.2s;
 
             &:hover {

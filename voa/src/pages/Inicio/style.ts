@@ -36,11 +36,28 @@ export const Content = styled.div`
             height: 56px;
             border-radius: 10px;
             background: #ffff;
-            border: 2px solid #000000;
+            border: 2px solid #000066;
             padding: 0 16px;
             width: 100%;
             font-weight: 500;
             margin: 0 16px 16px 0;
         }
+        a {
+            color: #000066;
+            margin: 24px 0;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            &:hover {
+                color: ${shade(0.5, "#000066")};
+            }
+        }
+        p {
+            color: #000066;
+            margin: 50px 0;
+        }
     }
+`;
+export const img = styled.image`
+    position: absolute;
+    left: 10px;
 `;

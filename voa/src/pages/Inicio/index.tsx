@@ -13,7 +13,8 @@ const Inicio: React.FC = () => {
                     <h1>Economize em sua viagem</h1>
                     <button>
                         {" "}
-                        <img src={faceimg} alt="facebook" /> Facebook{" "}
+                        <img src={faceimg} alt="facebook" />
+                        Facebook{" "}
                     </button>
                     <button>
                         {" "}
@@ -25,9 +26,9 @@ const Inicio: React.FC = () => {
                     </button>
                     <a href="">Entrar sem e-mail</a>
                     <p>
-                        Ao prossegui você aceita esses{" "}
+                        Ao prosseguir você aceita nossos{" "}
                         <Link to="">Termos e condições </Link>e{" "}
-                        <Link to="">politica de privacidade</Link>
+                        <Link to="">Politica de Privacidade</Link>
                     </p>
                 </form>
             </Content>
